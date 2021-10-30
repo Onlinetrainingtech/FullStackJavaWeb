@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <p id="result"></p> 
+    <script type="text/javascript"> 
+    var m1=parseInt(prompt("Enter the m1 marks")); 
+    var m2=parseInt(prompt("Enter the m2 marks")); 
+    var m3=parseInt(prompt("Enter the m3 marks")); 
+    tot=m1+m2+m3; 
+    document.write(tot); 
+    if(tot>=900) 
+    { 
+    document.getElementById("result").innerHTML="GradeA"; 
+    } 
+    else if(tot<=700) 
+    { 
+    document.write("Grade-B"); 
+    } 
+    else 
+    { 
+    document.write("Grade-C"); 
+    } 
+    </script> 
+   </body>
+</html>
