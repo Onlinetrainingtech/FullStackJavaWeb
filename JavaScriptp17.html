@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+        function demo() 
+        { 
+        var t1; 
+        if(confirm("Press a button!")) 
+        { 
+        t1="welcome press ok button"; 
+        } 
+        else 
+        { 
+        t1="Welcome press cancel button"; 
+        } 
+        document.getElementById("d1").innerHTML=t1; 
+        } 
+        </script>
+</head>
+<body>
+    <p id="d1"></p>
+    <button onclick="demo()">ClickHere</button> 
+</body>
+</html>
